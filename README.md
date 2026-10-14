@@ -55,4 +55,4 @@ src/
 
 ## Деплой
 
-В репозитории есть workflow GitHub Actions (`.github/workflows/deploy.yml`): при пуше в `main` он собирает проект и публикует его на GitHub Pages. В настройках репозитория нужно выбрать Settings → Pages → Source: **GitHub Actions**.
+Собранная версия (`npm run build`) опубликована на GitHub Pages из ветки `gh-pages`: https://basiton.github.io/green-api-max-chat/
